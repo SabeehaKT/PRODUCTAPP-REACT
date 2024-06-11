@@ -32,7 +32,7 @@ const ViewAll = () => {
                                     </thead>
                                     <tbody>
                                         {data.map(
-                                        (value,indes)=>{
+                                        (value,index)=>{
                                             return <tr>
                                             <th scope="row">{value.proid}</th>
                                             <td>{value.proname}</td>
